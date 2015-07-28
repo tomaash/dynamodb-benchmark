@@ -1,0 +1,37 @@
+{
+  "name": "dynamodb-benchmark",
+  "version": "0.0.1",
+  "description": "DynamoDB benchmark application with koa middleware and dynamise library",
+  "main": "server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomaash/dynamodb-benchmark.git"
+  },
+  "homepage": "https://github.com/tomaash/dynamodb-benchmark",
+  "author": "tomaash",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1.40",
+    "babel": "^5.5.8",
+    "dynamise": "^0.6.0",
+    "dynamodb-doc": "^1.0.0",
+    "koa": "^0.21.0",
+    "koa-bodyparser": "^2.0.0",
+    "koa-logger": "^1.2.2",
+    "koa-response-time": "^1.0.2",
+    "koa-router": "^5.1.2"
+  },
+  "tags": [
+    "dynamodb",
+    "dynamise",
+    "koa"
+  ],
+  "keywords": [
+    "dynamodb",
+    "dynamise",
+    "koa"
+  ],
+  "engines": {
+    "iojs": "^2.4.0"
+  }
+}
